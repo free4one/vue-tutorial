@@ -22,6 +22,9 @@ import Fade from '@/components/Fade';
 import LazySudoku from '@/components/LazySudoku';
 import StaggeredListDemo from '@/components/StaggeredListDemo';
 import DynamicTransition from '@/components/DynamicTransition';
+import AnimatedNumberDemo from '@/components/AnimatedNumberDemo';
+import ExampleComponent from '@/components/ExampleComponent';
+import AnimatedColor from '@/components/AnimatedColor';
 
 const optLodash = { name: 'lodash' }; // customize the way you want to call it
 const optVelocity = { name: 'velocity' };
@@ -126,6 +129,21 @@ export default new Router({
       path: '/dynamicTransition',
       name: DynamicTransition,
       component: DynamicTransition,
+    },
+    {
+      path: '/animatedNumberDemo',
+      name: AnimatedNumberDemo,
+      component: AnimatedNumberDemo,
+    },
+    {
+      path: '/exampleComponent',
+      name: ExampleComponent,
+      component: ExampleComponent,
+    },
+    {
+      path: '/animatedColor',
+      name: AnimatedColor,
+      component: AnimatedColor,
     },
   ],
 });

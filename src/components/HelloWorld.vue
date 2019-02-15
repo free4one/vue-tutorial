@@ -56,6 +56,16 @@
     <h3>
       <router-link to="/dynamicTransition">Dynamic fade Demo for Vue.js</router-link>
     </h3>
+    <h3>
+      <router-link to="/animatedNumberDemo">Animated Number Demo for Vue.js</router-link>
+    </h3>
+    <h3>
+      <router-link to="/exampleComponent">Example for Animated Counter</router-link>
+    </h3>
+    <h3>
+      <router-link to="/animatedColor">Example for Animated Color</router-link>
+    </h3>
+
     <ul>
       <li>
         <a href="https://vuejs.org" target="_blank">Core Docs</a>
